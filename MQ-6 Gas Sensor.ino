@@ -58,7 +58,7 @@ void setup() {
 void loop() {
 
   
-  lpGasReadingVal = analogRead(A0);
+  lpGasReadingVal = analogRead(gasSensorPin);
   
   if(lpGasReadingVal>=lpGasThreshVal){
 
