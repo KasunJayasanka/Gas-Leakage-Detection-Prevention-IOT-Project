@@ -38,7 +38,7 @@ void loop() {
 
 float getGasCylinderWeight()
 {
-  float tareWeight=0.5;
+  float tareWeight=6.0;
   long val=0;
   float count = 0;
   count++;
