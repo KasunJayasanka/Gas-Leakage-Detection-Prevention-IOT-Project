@@ -1,5 +1,3 @@
-#include <SoftwareSerial.h> //Library for setup required Digital Pins for Serial Communications
-
 #include <TinyGPS.h> //Library for NEO-6M-0-001 GPS Module
 
 //Variables for Gas Sensor Reading
