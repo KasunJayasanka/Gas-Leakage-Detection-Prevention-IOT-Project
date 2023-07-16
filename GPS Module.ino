@@ -45,8 +45,6 @@ void loop() {
 
   
   String url=getLocationURL();
-
-  if(lpGasReadingVal>=lpGasThreshVal){
   
   //Flame Sensor
   flameSensor = digitalRead(flameSensorPin);
