@@ -1,9 +1,5 @@
 #include <TinyGPS.h> //Library for NEO-6M-0-001 GPS Module
 
-//Variables for Gas Sensor Reading
-float lpGasThreshVal=500.0;
-float lpGasReadingVal;
-
 //GSM MODULE____________
 SoftwareSerial mySerial (10,9);
 int alertSentMessage=0;
