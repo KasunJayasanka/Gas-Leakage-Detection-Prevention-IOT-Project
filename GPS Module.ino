@@ -49,7 +49,7 @@ void loop() {
   {
       
     //Send Message to User and Fire Authority
-    if (alertSentMessage<10)
+    while (alertSentMessage<10)
     {
       //message to fire authority
       SendMessage("+94711569794",FireAlertMessage(url));
