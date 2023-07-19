@@ -47,5 +47,21 @@ void loop() {
 
   }
 
+   //Flame Sensor
+  flameSensor = digitalRead(flameSensorPin);
+
+  if(flameSensor==0)//check if flame is detected
+  {
+    //Turn off the Electricity and Turn on the Exhaust Fan
+    digitalWrite(2,HIGH); 
+
+    delay(6000) ;    
+  }
+
+  else
+  {
+      flameDetected = false;  
+  }
+
 }
 
