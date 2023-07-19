@@ -1,5 +1,6 @@
 #include <ArduinoJson.h> //Library for Generating Json Objects
 #include <RTClib.h> //Library for DS3231 RTC Module
+#include <Wire.h>
 
 //RTC Module
 RTC_DS3231 rtc;
